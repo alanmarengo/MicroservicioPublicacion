@@ -18,20 +18,5 @@ namespace DATOS
 
         }
 
-        public Contexto()
-        {
-
-        }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-B7GFJSO;Database=PublicacionAPI;Uid=sa;Pwd='alanabcdA1'",
-                options => { });
-        }
-
-
-
-
-
-
     }
 }

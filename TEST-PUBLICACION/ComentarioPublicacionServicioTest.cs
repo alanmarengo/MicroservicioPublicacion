@@ -14,7 +14,7 @@ using Microsoft.EntityFrameworkCore;
 namespace TEST_PUBLICACION
 {
     [TestFixture]
-    public class ComentarioPublicacionServicioTest
+    public class ComentarioPublicacionServicioTest: BaseTEST_PUBLICACION
     {
         Contexto db;
         GenericsRepository genericsRepository;
@@ -24,7 +24,7 @@ namespace TEST_PUBLICACION
         [SetUp]
         public void Setup()
         {
-            db = new Contexto();
+            db = ConstruirContexto();
             genericsRepository = new GenericsRepository(db);
             Query = new Mock<IQueryComentarioPublicacion>();
             Query.Setup(a=>a.GetComentarioPublicaciones()).Returns(new List<ComentariosdePublicacion> 

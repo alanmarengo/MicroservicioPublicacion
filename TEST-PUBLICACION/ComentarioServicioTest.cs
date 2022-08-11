@@ -12,7 +12,7 @@ using System.Text;
 namespace TEST_PUBLICACION
 {
     [TestFixture]
-    public class ComentarioServicioTest
+    public class ComentarioServicioTest:BaseTEST_PUBLICACION
     {
         Contexto db;
         GenericsRepository genericsRepository;
@@ -22,7 +22,7 @@ namespace TEST_PUBLICACION
         [SetUp]
         public void Setup()
         {
-            db = new Contexto();
+            db = ConstruirContexto();
             genericsRepository = new GenericsRepository(db);
             Query = new Mock<IQueryComentario>();
             Query.Setup(a => a.GetComentario()).Returns(
