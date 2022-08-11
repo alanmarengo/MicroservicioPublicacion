@@ -9326,11 +9326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+      "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
       "projectName": "MicroservicioPublicacion",
-      "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+      "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
       "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\obj\\",
+      "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9351,11 +9351,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\APLICACION\\APLICACION.csproj": {
-              "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\APLICACION\\APLICACION.csproj"
+            "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
+              "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj"
             },
-            "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\DATOS\\DATOS.csproj": {
-              "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\DATOS\\DATOS.csproj"
+            "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj": {
+              "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj"
             }
           }
         }

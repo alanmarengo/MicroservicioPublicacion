@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3C6rImleB0/xlW0B+qNp4uwAFcejyqAfvhlg/Kek5ZDjL8MOETnGdouQ8xkzVbXzMqub51zJuXxcHkknjmCZWQ==",
+  "dgSpecHash": "Z2LAUb5IcVTCwsqsR9iw+ihtp0K/DU1Ei6YmBk6GqW6S/ivMXnUoyau6wxCTBmdXzHvUeuVU9EksIvs8sv50tQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\APLICACION\\APLICACION.csproj",
+  "projectFilePath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alanm\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
     "C:\\Users\\alanm\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

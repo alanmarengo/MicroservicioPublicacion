@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\TEST-PUBLICACION\\TEST-PUBLICACION.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+        "projectName": "APLICACION",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj",
+        "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj"
+              },
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj",
+        "projectName": "DATOS",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj",
+        "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SqlKata": {
+              "target": "Package",
+              "version": "[1.1.7, )"
+            },
+            "SqlKata.Execution": {
+              "target": "Package",
+              "version": "[1.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj",
+        "projectName": "DOMINIO",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\DOMINIO.csproj",
+        "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DOMINIO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\TEST-PUBLICACION\\TEST-PUBLICACION.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\TEST-PUBLICACION\\TEST-PUBLICACION.csproj",
+        "projectName": "TEST-PUBLICACION",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\TEST-PUBLICACION\\TEST-PUBLICACION.csproj",
+        "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\TEST-PUBLICACION\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\alanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\APLICACION\\APLICACION.csproj"
+              },
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\DATOS\\DATOS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

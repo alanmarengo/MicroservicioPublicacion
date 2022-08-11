@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/RzlxprrXqntmG95jcdzpO0BdWLv57ydwnKHYLy8e9rZomb2++z16Bt0Qx/S/2g8ExCNyVDOkHsXoOkjYXHq9w==",
+  "dgSpecHash": "kEyKVW/sg7kLdi3owVMKA72BRWNonzC6759o+lzX9wFALOxKI7rfp/nEjgKhm+6QqVyufQZ+1xo3qots+DwSxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
+  "projectFilePath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioPublicacion\\MicroservicioPublicacion\\MicroservicioPublicacion.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alanm\\.nuget\\packages\\dapper\\1.50.5\\dapper.1.50.5.nupkg.sha512",
     "C:\\Users\\alanm\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

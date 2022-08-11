@@ -43,3 +43,13 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.csproj.CoreCompileInputs.cache
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.deps.json
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\bin\Debug\netcoreapp3.1\DOMINIO.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.csproj.AssemblyReference.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfoInputs.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.AssemblyInfo.cs
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.csproj.CoreCompileInputs.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioPublicacion\DOMINIO\obj\Debug\netcoreapp3.1\DOMINIO.pdb

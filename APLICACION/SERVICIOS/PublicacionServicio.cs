@@ -15,7 +15,7 @@ namespace APLICACION.SERVICIOS
     public interface IPublicacionServicio 
     {
 
-       Publicacion CrearPublicacion(InsertarPublicacionDto objeto);
+        Publicacion CrearPublicacion(InsertarPublicacionDto objeto);
         List<Publicacion> GetPublicaciones();
         Publicacion GetPublicacionesID(int publicacionID);
         Task<ProductoEspecificoDto> GetProductoID(int publicacionID);
