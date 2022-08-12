@@ -3,6 +3,7 @@ using DATOS;
 using DATOS.COMANDOS;
 using DOMINIO.ENTIDADES;
 using DOMINIO.QUERYS;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using NUnit.Framework;
 using System;
@@ -42,8 +43,25 @@ namespace TEST_PUBLICACION
             using (var trans = db.Database.BeginTransaction())
             {
                 var publication = publicacionServicio.CrearPublicacion(new DOMINIO.DTOS.InsertarPublicacionDto { productoID=1});
-                Assert.IsNotNull(publication);
+                NUnit.Framework.Assert.IsNotNull(publication);
                 trans.Rollback();
+            }
+        }
+
+        [Test]
+        [ExpectedException(typeof(FormatException))]
+        public void CrearPublicacionConProductIdInvalido()
+        {
+            using (var trans = db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var publication = publicacionServicio.CrearPublicacion(new DOMINIO.DTOS.InsertarPublicacionDto { productoID = int.Parse("PROYECTO") });
+                }
+                catch (Exception ex)
+                {
+
+                }
             }
         }
 
@@ -51,7 +69,7 @@ namespace TEST_PUBLICACION
         public void GetPublicaciones()
         {
            var publications = publicacionServicio.GetPublicaciones();
-           Assert.IsNotNull(publications);
+            NUnit.Framework.Assert.IsNotNull(publications);
         }
 
 

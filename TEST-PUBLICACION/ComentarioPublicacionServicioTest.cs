@@ -84,6 +84,12 @@ namespace TEST_PUBLICACION
         }
 
 
+        [Test]
+        public void GetComentarioPublicacionesIDConComentarioPublicacionInvalido()
+        {
+            var comentariosdepublicacion = comentarioPublicacionServicio.GetComentarioPublicacionesID(875545);
+            Assert.IsNull(comentariosdepublicacion);
+        }
 
 
 
