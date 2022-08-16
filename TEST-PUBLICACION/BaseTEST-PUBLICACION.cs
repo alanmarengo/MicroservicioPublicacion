@@ -13,7 +13,7 @@ namespace TEST_PUBLICACION
         {
             if (db==null) 
             {
-                var opciones = new DbContextOptionsBuilder<Contexto>().UseSqlServer("Server=DESKTOP-B7GFJSO;Database=PublicacionAPI;Uid=sa;Pwd='alanabcdA1'",
+                var opciones = new DbContextOptionsBuilder<Contexto>().UseSqlServer("Server=NTB707\\SQLEXPRESS;Database=PublicacionAPI;Uid=sa;Pwd='Emerix01';",
                 options => { }).Options;
                 db= new Contexto(opciones);
                 return db;
