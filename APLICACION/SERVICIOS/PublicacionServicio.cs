@@ -65,6 +65,10 @@ namespace APLICACION.SERVICIOS
 
         public Publicacion CrearPublicacion(InsertarPublicacionDto objeto)
         {
+            if(objeto == null)
+            {
+                return null;
+            }
             Publicacion publicacion = new Publicacion
             {
                 ProductoID = objeto.productoID

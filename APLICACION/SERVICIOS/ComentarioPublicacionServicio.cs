@@ -31,10 +31,14 @@ namespace APLICACION.SERVICIOS
         }
         public ComentarioPublicacion CrearComentarioPublicacion(ComentarioPublicacionDTO comentariopublicacion)
         {
+            if (comentariopublicacion == null)
+            {
+                return null;
+            }
             ComentarioPublicacion ComentarioPublicacion = new ComentarioPublicacion
             {
                 ComentariosID = comentariopublicacion.ComentariosID,
-                PublicacionID= comentariopublicacion.PublicacionID
+                PublicacionID = comentariopublicacion.PublicacionID
             };
             return repository.Agregar<ComentarioPublicacion>(ComentarioPublicacion);
         }

@@ -68,6 +68,18 @@ namespace TEST_PUBLICACION
         }
 
         [Test]
+        public void CrearComentarioPublicacionInvalidObject()
+        {
+            using (var trans = db.Database.BeginTransaction())
+            {
+                var comentaryPublication = comentarioPublicacionServicio.CrearComentarioPublicacion(null);
+                Assert.IsNull(comentaryPublication);
+            
+            }
+
+        }
+
+        [Test]
         public void GetComentariodePublicaciones()
         {
             var comentariosdepublicacion = comentarioPublicacionServicio.GetComentarioPublicaciones();

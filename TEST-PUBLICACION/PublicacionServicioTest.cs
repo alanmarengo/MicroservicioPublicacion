@@ -49,6 +49,16 @@ namespace TEST_PUBLICACION
         }
 
         [Test]
+        public void CrearPublicacionInvalidObject()
+        {
+            using (var trans = db.Database.BeginTransaction())
+            {
+                var publication = publicacionServicio.CrearPublicacion(null);
+                NUnit.Framework.Assert.IsNull(publication);
+            }
+        }
+
+        [Test]
         [ExpectedException(typeof(FormatException))]
         public void CrearPublicacionConProductIdInvalido()
         {

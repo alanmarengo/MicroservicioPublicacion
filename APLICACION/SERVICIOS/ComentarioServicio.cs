@@ -29,6 +29,10 @@ namespace APLICACION.SERVICIOS
         }
         public Comentario CrearComentario(string comentario)
         {
+            if(comentario == null)
+            {
+                return null;
+            }
             Comentario nuevocomentario = new Comentario
             {
                 Comentarios=comentario,
